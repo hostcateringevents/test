@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 const formData = new FormData(registerForm);
 
-                fetch('/api/submit', {
+                fetch('https://ab01.vercel.app/api/submit', {
                     method: 'POST',
                     body: formData
                 })
@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 const formData = new FormData(contactForm);
 
-                fetch('/api/submit', {
+                fetch('https://ab01.vercel.app/api/submit', {
                     method: 'POST',
                     body: formData
                 })
