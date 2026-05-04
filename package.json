@@ -1,9 +1,10 @@
 {
-  "name": "host-catering-events",
-  "version": "1.0.0",
-  "description": "Backend proxy for Host Catering Events forms",
+  "name": "cateringweb",
+  "version": "1.0.1",
+  "main": "server.js",
   "scripts": {
-    "dev": "node --watch server.local.js"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
